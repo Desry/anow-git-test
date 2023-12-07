@@ -1,0 +1,20 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "WORKFLOW",
+  "workflowType": "FOR_EACH",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "forEachCollection": "[\n{\n  \"queue\": \"DEV.QUEUE.1\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.2\"\n\n},\n\n{\n  \"queue\": \"DEV.QUEUE.3\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.4\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.5\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.6\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.7\"\n},\n\n\n{\n  \"queue\": \"DEV.QUEUE.8\"\n},\n\n\n{\n  \"queue\": \"DEV.QUEUE.9\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.10\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.11\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.12\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.13\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.14\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.15\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.16\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.17\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.18\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.19\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.20\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.21\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.22\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.23\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.24\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.25\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.26\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.27\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.28\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.29\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.30\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.31\"\n},\n{\n  \"queue\": \"DEV.QUEUE.32\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.33\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.34\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.35\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.36\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.37\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.38\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.39\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.40\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.41\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.42\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.43\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.44\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.45\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.46\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.47\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.48\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.49\"\n},\n\n{\n  \"queue\": \"DEV.QUEUE.50\"\n}\n\n]",
+    "forEachCollectionType": "JSON"
+  },
+  "items": 
+  [
+    {
+      "name": "mq_sensor_for_parallel_test",
+      "processingTemplate": "mq_sensor_for_parallel_test",
+      "sensorType": "IBM_MQ_SENSOR"
+    }
+  ]
+}
